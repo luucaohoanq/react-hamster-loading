@@ -1,5 +1,5 @@
 {
-  "name": "@lcaohoanq/react-hamster-loading",
+  "name": "react-hamster-loading",
   "private": false,
   "version": "1.0.0",
   "description": "A cute animated hamster loading spinner component for React",
@@ -20,6 +20,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:lib": "tsc && vite build --mode library",
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
@@ -37,7 +38,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luucaohoanq/react-hamster-loading.git"
+    "url": "git+https://github.com/luucaohoanq/react-hamster-loading.git"
   },
   "homepage": "https://github.com/luucaohoanq/react-hamster-loading#readme",
   "bugs": {
