@@ -1,0 +1,63 @@
+{
+  "name": "@lcaohoanq/react-hamster-loading",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A cute animated hamster loading spinner component for React",
+  "type": "module",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "loading",
+    "spinner",
+    "hamster",
+    "animation",
+    "component",
+    "typescript",
+    "styled-components"
+  ],
+  "author": "lcaohoanq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luucaohoanq/react-hamster-loading.git"
+  },
+  "homepage": "https://github.com/luucaohoanq/react-hamster-loading#readme",
+  "bugs": {
+    "url": "https://github.com/luucaohoanq/react-hamster-loading/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "styled-components": ">=5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "styled-components": "^6.1.19",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
